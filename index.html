@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yohannes - Fashion Designer & Art Director</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Pinyon+Script&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1><a href="#home"><span class="y-letter">Y</span>ohannes</a></h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="data/assets/resume.pdf" target="_blank">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <div class="title-container">
+                        <img src="data/assets/Y.png" alt="Y" class="drop-cap-image">
+                        <span class="title-text">ohannes</span>
+                    </div>
+                </h1>
+                <div class="hero-subtitle-container">
+                    <p class="hero-subtitle">Empowering through design, creating change through art</p>
+                </div>
+                <div class="hero-cta">
+                    <a href="#portfolio" class="cta-button">View Work</a>
+                    <a href="#contact" class="cta-button secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="data/assets/hero.jpeg" alt="Yohannes Designer" class="hero-img">
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2 class="section-title manuscript-title">Portfolio</h2>
+                <div class="portfolio-grid" id="portfolio-content">
+                    <!-- Portfolio items will be loaded from portfolio folder -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title manuscript-title">About</h2>
+                <div class="about-content">
+                    <p class="artist-statement">
+                        <span class="ornamental-quote-left">❝</span>We must love all and give power to the people<span class="ornamental-quote-right">❞</span>
+                    </p>
+                    <div class="about-text">
+                        <p>At 19, I am a fashion designer and art director driven by the belief that fashion is a powerful medium for social change and empowerment. My work challenges conventional narratives and amplifies voices that deserve to be heard.</p>
+                        <p>Through my designs, I aim to create clothing that not only looks striking but also carries meaningful messages about unity, empowerment, and social justice. Every piece is crafted with intention, every collection tells a story of resilience and hope.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title manuscript-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Create Something Powerful Together</h3>
+                        <p>Ready to collaborate on projects that make a difference? Reach out for fashion design, art direction, or creative consulting opportunities.</p>
+                    </div>
+                    <form class="contact-form" action="https://formspree.io/f/xpznkrva" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company/Organization</label>
+                            <input type="text" id="company" name="company" placeholder="Company or organization name">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <input type="hidden" name="_subject" value="New contact form submission">
+                        <input type="hidden" name="_next" value="https://yohannes.com/thank-you.html">
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Yohannes. Empowering through design.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

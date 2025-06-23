@@ -1,0 +1,908 @@
+=== YOHANNES FASHION PORTFOLIO WEBSITE ===
+Generated: Sun Jun 22 15:40:20 EDT 2025
+
+=== PROJECT STRUCTURE ===
+index.html - Main HTML file
+styles.css - CSS styling
+script.js - JavaScript functionality
+
+=== index.html ===
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yohannes - Fashion Designer & Art Director</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>Yohannes</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Fashion Designer<br>& Art Director</h1>
+                <p class="hero-subtitle">Empowering through design, creating change through art</p>
+                <div class="hero-cta">
+                    <a href="#portfolio" class="cta-button">View Work</a>
+                    <a href="#contact" class="cta-button secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="placeholder-image">
+                    <span>Hero Image</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2 class="section-title">Portfolio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-category">
+                        <h3>Streetwear Collection</h3>
+                        <div class="portfolio-items">
+                            <div class="portfolio-item">
+                                <div class="placeholder-image">
+                                    <span>Collection 1</span>
+                                </div>
+                            </div>
+                            <div class="portfolio-item">
+                                <div class="placeholder-image">
+                                    <span>Collection 2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-category">
+                        <h3>Political Statement Pieces</h3>
+                        <div class="portfolio-items">
+                            <div class="portfolio-item">
+                                <div class="placeholder-image">
+                                    <span>Statement 1</span>
+                                </div>
+                            </div>
+                            <div class="portfolio-item">
+                                <div class="placeholder-image">
+                                    <span>Statement 2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-category">
+                        <h3>Art Direction</h3>
+                        <div class="portfolio-items">
+                            <div class="portfolio-item">
+                                <div class="placeholder-image">
+                                    <span>Direction 1</span>
+                                </div>
+                            </div>
+                            <div class="portfolio-item">
+                                <div class="placeholder-image">
+                                    <span>Direction 2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="artist-statement">"We must love all and give power to the people"</p>
+                        <p>At 19, I am a fashion designer and art director driven by the belief that fashion is a powerful medium for social change and empowerment. My work challenges conventional narratives and amplifies voices that deserve to be heard.</p>
+                        <p>Through my designs, I aim to create clothing that not only looks striking but also carries meaningful messages about unity, empowerment, and social justice. Every piece is crafted with intention, every collection tells a story of resilience and hope.</p>
+                    </div>
+                    <div class="about-image">
+                        <div class="placeholder-image">
+                            <span>About Photo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume" class="resume">
+            <div class="container">
+                <h2 class="section-title">Experience</h2>
+                <div class="resume-content">
+                    <div class="resume-section">
+                        <h3>Education</h3>
+                        <div class="resume-item">
+                            <h4>Fashion Design Studies</h4>
+                            <p class="resume-meta">2023 - Present</p>
+                            <p>Focused on sustainable fashion practices and socially conscious design methodologies.</p>
+                        </div>
+                    </div>
+                    <div class="resume-section">
+                        <h3>Experience</h3>
+                        <div class="resume-item">
+                            <h4>Freelance Fashion Designer</h4>
+                            <p class="resume-meta">2022 - Present</p>
+                            <p>Creating custom pieces and consulting on brand identity for emerging streetwear labels.</p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Art Director</h4>
+                            <p class="resume-meta">2023 - Present</p>
+                            <p>Visual direction for fashion shoots and brand campaigns focused on social empowerment.</p>
+                        </div>
+                    </div>
+                    <div class="resume-section">
+                        <h3>Skills</h3>
+                        <div class="skills-grid">
+                            <span class="skill">Fashion Design</span>
+                            <span class="skill">Art Direction</span>
+                            <span class="skill">Brand Identity</span>
+                            <span class="skill">Photography</span>
+                            <span class="skill">Textile Design</span>
+                            <span class="skill">Creative Direction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Create Something Powerful Together</h3>
+                        <p>Ready to collaborate on projects that make a difference? Reach out for fashion design, art direction, or creative consulting opportunities.</p>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company/Organization</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="project">Project Type</label>
+                            <select id="project" name="project">
+                                <option value="">Select Project Type</option>
+                                <option value="design">Fashion Design</option>
+                                <option value="direction">Art Direction</option>
+                                <option value="consulting">Creative Consulting</option>
+                                <option value="collaboration">Collaboration</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Yohannes. Empowering through design.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+=== styles.css ===
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-black: #000000;
+    --primary-white: #ffffff;
+    --accent-gray: #333333;
+    --light-gray: #f5f5f5;
+    --script-font: 'Dancing Script', cursive;
+    --body-font: 'Inter', sans-serif;
+}
+
+body {
+    font-family: var(--body-font);
+    line-height: 1.6;
+    color: var(--primary-black);
+    background-color: var(--primary-white);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navigation */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--primary-white);
+    border-bottom: 2px solid var(--primary-black);
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.nav-logo h1 {
+    font-family: var(--script-font);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--primary-black);
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: var(--primary-black);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.nav-menu a:hover {
+    color: var(--accent-gray);
+}
+
+.nav-menu a::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--primary-black);
+    transition: width 0.3s ease;
+}
+
+.nav-menu a:hover::after {
+    width: 100%;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: var(--primary-black);
+    margin: 3px 0;
+    transition: 0.3s;
+}
+
+/* Hero Section */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px 20px 50px;
+    background: linear-gradient(135deg, var(--primary-white) 0%, var(--light-gray) 100%);
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hero-title {
+    font-family: var(--script-font);
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: var(--primary-black);
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: var(--accent-gray);
+    font-weight: 300;
+}
+
+.hero-cta {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border: 2px solid var(--primary-black);
+}
+
+.cta-button:not(.secondary) {
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+}
+
+.cta-button:not(.secondary):hover {
+    background-color: var(--primary-white);
+    color: var(--primary-black);
+}
+
+.cta-button.secondary {
+    background-color: var(--primary-white);
+    color: var(--primary-black);
+}
+
+.cta-button.secondary:hover {
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.placeholder-image {
+    width: 100%;
+    height: 400px;
+    background-color: var(--light-gray);
+    border: 2px solid var(--primary-black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: var(--accent-gray);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Section Styling */
+section {
+    padding: 80px 0;
+}
+
+.section-title {
+    font-family: var(--script-font);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--primary-black);
+}
+
+/* Portfolio Section */
+.portfolio {
+    background-color: var(--light-gray);
+}
+
+.portfolio-grid {
+    display: grid;
+    gap: 3rem;
+}
+
+.portfolio-category h3 {
+    font-family: var(--script-font);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: var(--primary-black);
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.portfolio-item {
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+}
+
+.portfolio-item .placeholder-image {
+    height: 300px;
+}
+
+/* About Section */
+.about-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.artist-statement {
+    font-family: var(--script-font);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(--primary-black);
+    text-align: center;
+    padding: 2rem;
+    border: 3px solid var(--primary-black);
+    background-color: var(--light-gray);
+}
+
+.about-text p:not(.artist-statement) {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.about-image .placeholder-image {
+    height: 500px;
+}
+
+/* Resume Section */
+.resume {
+    background-color: var(--light-gray);
+}
+
+.resume-content {
+    display: grid;
+    gap: 3rem;
+}
+
+.resume-section h3 {
+    font-family: var(--script-font);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--primary-black);
+}
+
+.resume-item {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: var(--primary-white);
+    border: 2px solid var(--primary-black);
+}
+
+.resume-item h4 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-black);
+}
+
+.resume-meta {
+    font-weight: 600;
+    color: var(--accent-gray);
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.skill {
+    padding: 1rem;
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Contact Section */
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+}
+
+.contact-info h3 {
+    font-family: var(--script-font);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--primary-black);
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.contact-form {
+    background-color: var(--light-gray);
+    padding: 2rem;
+    border: 2px solid var(--primary-black);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid var(--primary-black);
+    background-color: var(--primary-white);
+    font-family: var(--body-font);
+    font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--accent-gray);
+}
+
+.submit-button {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+    border: none;
+    font-family: var(--body-font);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: var(--accent-gray);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        flex-direction: column;
+        background-color: var(--primary-white);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        padding: 2rem 0;
+        border-bottom: 2px solid var(--primary-black);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 120px 20px 50px;
+    }
+
+    .hero-image {
+        margin-left: 0;
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-items {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-cta {
+        justify-content: center;
+    }
+
+    .cta-button {
+        min-width: 200px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .artist-statement {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+}
+=== script.js ===
+document.addEventListener('DOMContentLoaded', function() {
+    // Mobile Navigation Toggle
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu');
+
+    hamburger.addEventListener('click', function() {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking on a link
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+        link.addEventListener('click', function() {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        });
+    });
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                const offsetTop = target.offsetTop - 70; // Account for fixed navbar
+                window.scrollTo({
+                    top: offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Contact form handling
+    const contactForm = document.querySelector('.contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Simple validation
+            if (!data.name || !data.email || !data.message) {
+                alert('Please fill in all required fields.');
+                return;
+            }
+            
+            // Email validation
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(data.email)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
+            
+            // Simulate form submission (replace with actual form handler)
+            const submitButton = this.querySelector('.submit-button');
+            const originalText = submitButton.textContent;
+            
+            submitButton.textContent = 'Sending...';
+            submitButton.disabled = true;
+            
+            // Simulate API call
+            setTimeout(() => {
+                alert('Thank you for your message! I\'ll get back to you soon.');
+                this.reset();
+                submitButton.textContent = originalText;
+                submitButton.disabled = false;
+            }, 1500);
+        });
+    }
+
+    // Portfolio item hover effects
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+    portfolioItems.forEach(item => {
+        item.addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-10px) scale(1.02)';
+        });
+        
+        item.addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0) scale(1)';
+        });
+    });
+
+    // Navbar background on scroll
+    window.addEventListener('scroll', function() {
+        const navbar = document.querySelector('.navbar');
+        if (window.scrollY > 50) {
+            navbar.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+        } else {
+            navbar.style.boxShadow = 'none';
+        }
+    });
+
+    // Add loading animation for images
+    const placeholderImages = document.querySelectorAll('.placeholder-image');
+    placeholderImages.forEach(placeholder => {
+        placeholder.addEventListener('click', function() {
+            if (this.textContent.includes('Image') || this.textContent.includes('Photo')) {
+                this.innerHTML = '<div style="animation: pulse 2s infinite;">Click to upload image</div>';
+            }
+        });
+    });
+
+    // Add intersection observer for fade-in animations
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+            }
+        });
+    }, observerOptions);
+
+    // Apply fade-in animation to sections
+    const sections = document.querySelectorAll('section');
+    sections.forEach(section => {
+        section.style.opacity = '0';
+        section.style.transform = 'translateY(30px)';
+        section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+        observer.observe(section);
+    });
+
+    // Skills animation on scroll
+    const skills = document.querySelectorAll('.skill');
+    const skillsObserver = new IntersectionObserver(function(entries) {
+        entries.forEach((entry, index) => {
+            if (entry.isIntersecting) {
+                setTimeout(() => {
+                    entry.target.style.transform = 'scale(1)';
+                    entry.target.style.opacity = '1';
+                }, index * 100);
+            }
+        });
+    }, observerOptions);
+
+    skills.forEach(skill => {
+        skill.style.transform = 'scale(0.8)';
+        skill.style.opacity = '0';
+        skill.style.transition = 'transform 0.3s ease, opacity 0.3s ease';
+        skillsObserver.observe(skill);
+    });
+});
+
+// Add CSS animation keyframes dynamically
+const style = document.createElement('style');
+style.textContent = `
+    @keyframes pulse {
+        0% { opacity: 1; }
+        50% { opacity: 0.5; }
+        100% { opacity: 1; }
+    }
+    
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+`;
+document.head.appendChild(style);
+=== END OF PROJECT ASSETS ===
